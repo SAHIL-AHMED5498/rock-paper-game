@@ -1,0 +1,119 @@
+
+body{
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+
+
+
+.options{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.option-img{
+    width: 80px;
+    border: 5px solid #ff9900;
+    border-radius: 50%;
+}
+
+.score{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    border: 2px solid white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.you{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.computer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.result{
+    color: black;
+
+    background-color: white;
+    display: none;
+    height: 100vh;
+    
+    width: 100vw;
+}
+
+.button
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    border: 5px solid #ff9300;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    padding:0px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow to create a 2D effect */
+    transition: transform 0.2s, box-shadow 0.2s; /* Add transition for smoother effect */
+}
+
+.button:active {
+    padding: 4px 2px; /* Increase padding when button is active */
+}
+.button:hover {
+    transform: translateY(-1px); /* Move button slightly up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow size on hover */
+}
+
+h1{
+    text-align: center;
+    color: #ff9900;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.final-score{
+    background-color: antiquewhite;
+    height: 40vh;
+
+}
+.Lost-msg{
+    color: red;
+}
+.won-msg{color: green;}
+
+
+.rock:active{
+    padding: 1px;
+    background-color: #000000;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+.paper:active{
+    padding: 1px;
+    background-color: #000000;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+.scissor:active{
+    padding: 1px;
+    background-color:#000000;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+
